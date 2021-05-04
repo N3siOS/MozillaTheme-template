@@ -1,0 +1,51 @@
+{
+  "description": "Simple dark template theme for firefox ",
+  "manifest_version": 2,
+  "author": "Nesios",
+  "name": "Template",
+  "version": "0.1",
+  "homepage_url": "https://github.com/N3siOS/MozillaTheme-template",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+
+  "theme": {
+    "images": {
+      "additional_backgrounds": ["background.png", "background__repeat.png"]
+    },
+    "poperties": {
+      "additional_backgrounds": ["left top" , "right top"]
+    },
+    "colors": {
+      "frame": "#0D0C0C",
+      "frame_inactive": "#0D0C0C",
+      "tab_text": "#FFFFFF",
+      "tab_line": "#606060",
+      "tab_loading": "#E9E9E9",
+      "tab_background_text": "#C4C4C4",
+      "tab_background_separator": "#C4C4C4",
+      "toolbar": "#222222",
+      "toolbar_top_separator": "#0D0C0C",
+      "toolbar_bottom_separator": "#0D0C0C",
+      "toolbar_field": "#0D0C0C",
+      "toolbar_field_text": "#C4C4C4",
+      "toolbar_field_border": "#000000",
+      "toolbar_field_border_focus": "#000000",
+      "toolbar_field_focus": "#202020",
+      "bookmark_text": "#C4C4C4",
+      "icons": "#C4C4C4",
+      "icons_attention": "#747D8B",
+      "ntp_background": "#0D0C0C",
+      "ntp_text": "#E9E9E9",
+      "popup": "#0D0C0C",
+      "popup_highlight": "#0D0C0C",
+      "popup_highlight_text": "#C4C4C4",
+      "popup_text": "#E9E9E9",
+      "sidebar": "#0D0C0C",
+      "sidebar_highlight": "#38383D",
+      "sidebar_highlight_text": "#0D0C0C",
+      "sidebar_text": "#E9E9E9"
+    }
+  }
+}
